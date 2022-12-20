@@ -1,0 +1,46 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa4m9yIs74hhNZ0h3q0DQ_J53DausMsneXXQ&usqp=CAU");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container{
+	margin: 100px;
+	background-color: white;
+	padding: 40px;
+}
+
+
+
+input[type="text"], input[type="password"]{
+
+	width: 100%;
+	box-sizing: border-box;
+	margin: 15px 0px;
+	padding: 12px 20px;
+
+}
+
+button{
+
+	margin: 15px 0px;
+	padding: 20px;
+	font-size: 18px;
+	width: 100%;
+	background-color: teal;
+	color: whitesmoke;
+	border: none;
+
+}
